@@ -867,53 +867,6 @@ ul.social-box li {
 	    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 	    padding: 30px;
 	}
-@media (max-width: 575px) { /* Agregado para iPhone SE y dispositivos similares */
-
-  /* Estilos para el contenedor principal */
-  .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  /* Estilos para el formulario de introducción */
-  .intro .intro-form-small input[type="text"],
-  .intro .intro-form-small input[type="password"] {
-    width: 100%; /* Ajusta el ancho del input al 100% del contenedor */
-    margin-bottom: 10px; /* Espacio entre los inputs */
-  }
-
-  /* Estilos para la posición del caption del carousel */
-  .intro .carousel-caption {
-    top: 5%; /* Ajusta la posición del caption */
-  }
-
-  /* Estilos para el mapa de contacto */
-  .contact-section #map {
-    height: 300px; /* Reducir la altura del mapa */
-  }
-
-  /* Estilos para el menú de navegación */
-  #navbarSupportedContent {
-    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
-    padding: 15px 0; /* Ajusta el espaciado superior e inferior */
-  }
-
-  #navbarSupportedContent li {
-    text-align: center; /* Centra los elementos del menú */
-  }
-
-  /* Estilos para el contenedor de copia en la sección "about" */
-  #about .copy-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    padding: 20px; /* Ajusta el relleno */
-    margin-top: 20px; /* Añade un espacio superior */
-    margin-bottom: 20px; /* Añade un espacio inferior */
-  }
-}
 
 }
 
