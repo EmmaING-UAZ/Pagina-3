@@ -568,32 +568,44 @@ transition:1s ease-in;
 }
 
 /* ========== Testimonial Section ========== */
-.testimonial-section{
-	float: left;
-	width:100%;
-	position: relative;
-	z-index: 1;
+
+
+
+
+.testimonial-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
-.testimonial-section h2{
-	font-size: 3rem;
+
+.testimonial-section h2 {
+    font-size: 3rem;
 }
+
 .testimonial-section .single-testimonial .carousel-item {
     margin: 0 15%;
     width: 70%;
 }
-.testimonial-section .single-testimonial .carousel-item-next, .testimonial-section .single-testimonial .carousel-item-prev{
-	top:3rem;
+
+.testimonial-section .single-testimonial .carousel-item-next,
+.testimonial-section .single-testimonial .carousel-item-prev {
+    top: 3rem;
 }
-.testimonial-section .single-testimonial .carousel{
-	text-align: center;
+
+.testimonial-section .single-testimonial .carousel {
+    text-align: center;
 }
-.testimonial-section .single-testimonial .navigator-box{
-	display: inline-block;
-	position: relative;
+
+.testimonial-section .single-testimonial .navigator-box {
+    display: inline-block;
+    position: relative;
     top: 0px;
 }
-.testimonial-section .single-testimonial .carousel-control-next, .testimonial-section .single-testimonial .carousel-control-prev{
-	 border: 1px solid #b47f41;
+
+.testimonial-section .single-testimonial .carousel-control-next,
+.testimonial-section .single-testimonial .carousel-control-prev {
+    border: 1px solid #b47f41;
     border-radius: 50%;
     color: #b47f41;
     display: block;
@@ -605,11 +617,12 @@ transition:1s ease-in;
     position: relative;
     width: 43%;
 }
-.testimonial-section .single-testimonial .carousel-control-next:hover, .testimonial-section .single-testimonial .carousel-control-prev:hover{
-	background-color: #b47f41;
-	color: #fff;
-}
 
+.testimonial-section .single-testimonial .carousel-control-next:hover,
+.testimonial-section .single-testimonial .carousel-control-prev:hover {
+    background-color: #b47f41;
+    color: #fff;
+}
 
 /* ========== Footer Section ========== */
 .footer-section{
@@ -761,6 +774,7 @@ ul.social-box li {
 	width: 100%;
 	position: relative;
 	z-index: 1;
+	padding-bottom: 50px;
 }
 .contact-section .form-control{
 	border-radius: 0;
@@ -776,6 +790,26 @@ ul.social-box li {
 }
 .contact-section .form-sec{
 	box-shadow: 0 0 30px rgba(0,0,0,1);
+}
+
+.contact-info {
+    margin-top: 20px; 
+}
+
+.contact-info p {
+    margin-bottom: 10px; 
+}
+
+.contact-info a {
+	color: #007bff; /* Cambiar el color del texto del enlace a negro */
+	text-decoration: none; /* Eliminar el subrayado predeterminado */
+}
+
+/* Estilo para los enlaces cuando se están activando o han sido visitados */
+.contact-info a:hover,
+.contact-info a:active,
+.contact-info a:visited {
+	text-decoration: none; /* Mantener el mismo estilo de subrayado */
 }
 /* ========== Copy Footer Styles ========== */
 .copy-footer{
@@ -839,6 +873,14 @@ ul.social-box li {
 	}
 }
 
+@media (max-width: 767px) {
+    .testimonial-section .single-testimonial .carousel-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @media (max-width: 767px){
 	.container{
 		width:100%;
@@ -878,5 +920,4 @@ ul.social-box li {
         min-height: 80vh; /* Ajusta la altura de la sección */
       }
   }
-
 
